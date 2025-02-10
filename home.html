@@ -53,27 +53,29 @@
     
     <section id="login" class="secao">
         <h2>Login</h2>
-        <form class="formulario">
+        <form class="formulario" action="/login" method="POST">
             <label for="username">Usuário:</label>
             <input type="text" id="username" name="username" required>
+    
             <label for="password">Senha:</label>
             <input type="password" id="password" name="password" required>
+    
             <button type="submit" class="botao">Entrar</button>
         </form>
     </section>
     
     <section id="contato" class="secao">
         <h2>Entre em Contato</h2>
-        <form class="formulario">
+        <form class="formulario" action="/contato" method="POST">
             <label for="name">Nome:</label>
             <input type="text" id="name" name="name" required>
-            
+    
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" required>
-            
+    
             <label for="message">Mensagem:</label>
             <textarea id="message" name="message" required></textarea>
-            
+    
             <button type="submit" class="botao">Enviar</button>
         </form>
     </section>
