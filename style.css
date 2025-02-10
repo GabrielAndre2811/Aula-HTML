@@ -1,0 +1,134 @@
+/* Resetando margens e paddings para um layout mais limpo */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Definindo uma fonte moderna e cores de fundo */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Estilo para o cabeçalho */
+.cabecalho {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Menu de navegação */
+.menu-navegacao ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.menu-navegacao li {
+    margin: 0 15px;
+}
+
+.menu-navegacao a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.menu-navegacao a:hover {
+    color: #f39c12;
+}
+
+/* Seções */
+.secao {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+/* Imagens nas seções */
+.imagem {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Estilo da tabela */
+.tabela {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.tabela th, .tabela td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.tabela th {
+    background-color: #2c3e50;
+    color: white;
+}
+
+.tabela tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Estilo para os formulários */
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.formulario label {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.formulario input, .formulario textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.formulario textarea {
+    height: 100px;
+}
+
+.botao {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.botao:hover {
+    background-color: #2980b9;
+}
+
+/* Estilo para o rodapé */
+.rodape {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+.rodape p {
+    font-size: 0.9rem;
+}

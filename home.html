@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empresa XYZ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <h1>Empresa XYZ</h1>
+        <nav class="menu-navegacao">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><a href="#login">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home" class="secao">
+        <h2>Bem-vindo à Empresa XYZ</h2>
+        <img src="img/home.jpg" alt="Imagem de apresentação" class="imagem">
+    </section>
+    
+    <section id="sobre" class="secao">
+        <h2>Sobre Nós</h2>
+        <p>Informações sobre a empresa.</p>
+    </section>
+    
+    <section id="servicos" class="secao">
+        <h2>Nossos Serviços</h2>
+        <img src="img/servicos.jpg" alt="Imagem de serviços" class="imagem">
+    </section>
+    
+    <section id="tabela" class="secao">
+        <h2>Dados Empresariais</h2>
+        <table class="tabela">
+            <tr>
+                <th>Serviço</th>
+                <th>Descrição</th>
+                <th>Preço</th>
+            </tr>
+            <tr>
+                <td>Consultoria</td>
+                <td>Assessoria especializada</td>
+                <td>R$ 500,00</td>
+            </tr>
+        </table>
+    </section>
+    
+    <section id="login" class="secao">
+        <h2>Login</h2>
+        <form class="formulario">
+            <label for="username">Usuário:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="password" required>
+            <button type="submit" class="botao">Entrar</button>
+        </form>
+    </section>
+    
+    <section id="contato" class="secao">
+        <h2>Entre em Contato</h2>
+        <form class="formulario">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit" class="botao">Enviar</button>
+        </form>
+    </section>
+    
+    <footer class="rodape">
+        <p>&copy; 2025 Empresa XYZ. Todos os direitos reservados.</p>
+        <p>Contato: contato@empresa.xyz | Telefone: (11) 1234-5678</p>
+        <p>Endereço: Rua Exemplo, 123 - São Paulo, SP</p>
+    </footer>
+</body>
+</html>
